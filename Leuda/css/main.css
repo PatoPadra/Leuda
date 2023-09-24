@@ -97,3 +97,53 @@ body-main {
     flex: 1;
     text-align: left;
 }
+
+
+
+
+/**** section abuout us *****/
+
+
+.section-about-us {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.section-about-us-left,
+.section-about-us-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 20px;
+ 
+}
+
+.section-about-us-left {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+.section-about-us-right {
+    background-color: green;
+}
+
+
+
+/*****offer*****/
+
+
+.section-offer {
+    width: 100%;
+    background-color: #021963;
+    height: 600px;
+}
+
+.section-offer-content {
+    
+}
