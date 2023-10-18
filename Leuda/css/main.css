@@ -1,3 +1,4 @@
+
 :root {
     /* Colors */
     --white: #ffffff;
@@ -18,6 +19,7 @@
   }
 
 body-main {
+
     background-color: #fdfdfd;
     /* Change to your desired background color */
     /* Use background-image:url('your-image-url.jpg'); for a background image */
@@ -83,17 +85,134 @@ body-main {
     margin-right: 0;
 }
 
-.block {
-    padding: 10px;
-    border: 1px solid #ee1a1a; /* Optional: Add a border for visual separation */
+
+/**** section abuout us *****/
+
+
+.section-about-us {
+    width: 100%;
+    height: 400px;
+    display: flex;
 }
 
-#2do {
-    flex: 0;
-    text-align: right;
+.section-about-us-left,
+.section-about-us-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 20px;
+ 
 }
 
-#1ro, #3ro{
-    flex: 1;
-    text-align: left;
+.section-about-us-left {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+.section-about-us-right {
+    background-color: green;
+}
+
+
+
+/*****offer*****/
+
+
+.section-offer {
+    width: 100%;
+    background-color: #021963;
+    height: 400px;
+    display: flex;
+}
+
+.section-offer-left,
+.section-offer-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section-offer-left {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+.section-offer-right {
+    background-color: red;
+}
+
+
+/*****differences*****/
+
+
+.section-differences {
+    width: 100%;
+    background-color: #021963;
+    height: 400px;
+    display: flex;
+}
+
+.section-differences-left,
+.section-differences-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section-differences-left {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+.section-differences-right {
+    background-color:  green;
+}
+
+/*****footer*****/
+
+.section-footer {
+    width: 100%;
+    background-color: #021963;
+    height: 100px;
+    display: flex;
+}
+
+.section-footer-left,
+.section-footer-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section-footer-left {
+    background-color: green ;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+
+}
+
+.section-footer-right {
+    background-color: red ;
 }

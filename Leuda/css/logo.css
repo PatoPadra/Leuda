@@ -13,6 +13,7 @@
 
 
 body {
+    font-family: 'Alegreya ', serif;
     background-color: #ffffff;
     /* Change to your desired background color */
     /* Use background-image:url('your-image-url.jpg'); for a background image */
@@ -22,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container {
@@ -34,4 +36,8 @@ body {
     /* Optional: Make the container full viewport height */
     width: 100%;
     flex-direction: column;
+}
+
+.title{
+    font-weight: 800;
 }
