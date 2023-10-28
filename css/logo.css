@@ -1,5 +1,5 @@
 /* Set a background color or background image for the body */
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;800&display=swap');
 
 :root {
     /* Colors */
@@ -12,19 +12,10 @@
   }
 
 
-body {
-    font-family: 'Alegreya ', serif;
-    background-color: #ffffff;
-    /* Change to your desired background color */
-    /* Use background-image:url('your-image-url.jpg'); for a background image */
-    background-size: cover;
-    background-position: center;
-    /* Ensure the body covers the entire viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+  
+  body{
+    font-family: 'Alegreya', serif;
+  }
 
 .container {
     display: flex;

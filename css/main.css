@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;800&display=swap');
 
 :root {
     /* Colors */
@@ -9,8 +10,7 @@
     a{text-decoration: none;}
     
   }
-  
-  
+ 
   *:before,
   *:after {
     box-sizing: border-box;
@@ -18,6 +18,16 @@
     margin: 0;
   }
 
+  body{
+    font-family: 'Alegreya', serif;
+  }
+
+ h2{
+    font-size: 60px;
+ }
+  p{
+    font-size: 20px;
+  }
 body-main {
 
     background-color: #fdfdfd;
@@ -29,7 +39,6 @@ body-main {
     display: flex;
     justify-content: center;
     height: 100vh;
-    
 }
 
 .section {
@@ -51,6 +60,8 @@ body-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1400px ;
+    margin: 0 auto;
     
 }
 
@@ -93,6 +104,8 @@ body-main {
     width: 100%;
     height: 400px;
     display: flex;
+    max-width: 1400px ;
+    margin: 0 auto;
 }
 
 .section-about-us-left,
@@ -106,13 +119,6 @@ body-main {
  
 }
 
-#1ro, #3ro{
-    flex: 1;
-    text-align: left;
-}
-
-
-
 
 /**** section abuout us *****/
 
@@ -121,7 +127,15 @@ body-main {
     width: 100%;
     height: 600px;
     display: flex;
+    max-width: 1400px ;
+    margin: 0 auto;
 }
+
+.teclado{
+    width: 300px;
+    height: 264px;
+}
+
 
 .section-about-us-left,
 .section-about-us-right {
@@ -144,6 +158,9 @@ body-main {
 }
 .section-about-us-right {
     background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -156,6 +173,8 @@ body-main {
     background-color: #021963;
     height: 400px;
     display: flex;
+    max-width: 1400px ;
+    margin: 0 auto;
 }
 
 .section-offer-left,
@@ -189,6 +208,8 @@ body-main {
     background-color: #021963;
     height: 400px;
     display: flex;
+    max-width: 1400px ;
+    margin: 0 auto;
 }
 
 .section-differences-left,
@@ -220,6 +241,8 @@ body-main {
     background-color: #021963;
     height: 100px;
     display: flex;
+    max-width: 1400px ;
+    margin: 0 auto;
 }
 
 .section-footer-left,
