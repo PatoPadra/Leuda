@@ -15,8 +15,15 @@
   
   body{
     font-family: 'Alegreya', serif;
+    display: inline-block;
+    height: 100vh;
+    /* Optional: Make the container full viewport height */
+    width: 100%;
   }
 
+img{
+  max-width: 100px;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -27,8 +34,45 @@
     /* Optional: Make the container full viewport height */
     width: 100%;
     flex-direction: column;
+
 }
+
+.containerlanguages{
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+
+}
+
 
 .title{
     font-weight: 800;
+}
+
+h1 {
+  font-size: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 200;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a {
+  font-weight: 300;
+  text-decoration: none;
+  color: #000000;
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+a:visited {
+  color: #000000;
 }
