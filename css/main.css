@@ -197,7 +197,7 @@ h1 a:visited {
 }
 
 .section-about-us-left {
-    background-color: red;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -206,7 +206,7 @@ h1 a:visited {
 }
 
 .section-about-us-right {
-    background-color: green;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +237,7 @@ h1 a:visited {
 }
 
 .section-offer-left {
-    background-color: green;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -246,7 +246,7 @@ h1 a:visited {
 }
 
 .section-offer-right {
-    background-color: red;
+    background-color: white;
 }
 
 
@@ -273,7 +273,7 @@ h1 a:visited {
 }
 
 .section-differences-left {
-    background-color: red;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -282,7 +282,7 @@ h1 a:visited {
 }
 
 .section-differences-right {
-    background-color: green;
+    background-color: white;
 }
 
 /*****footer*****/
@@ -307,7 +307,7 @@ h1 a:visited {
 }
 
 .section-footer-left {
-    background-color: green;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -316,5 +316,5 @@ h1 a:visited {
 }
 
 .section-footer-right {
-    background-color: red;
+    background-color: white;
 }
