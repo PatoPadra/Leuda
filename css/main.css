@@ -249,6 +249,17 @@ h1 a:visited {
     height: 264px;
 }
 
+.mezcla {
+    width: 315px;
+    height: 293px;
+}
+
+.leudado {
+    width: 315px;
+    height: 293px;
+    display: flex;
+}
+
 
 .section-about-us-left,
 .section-about-us-right {
@@ -298,6 +309,7 @@ h1 a:visited {
     }
 
 }
+
 
 .section-offer-left {
     width: 45%;
